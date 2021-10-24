@@ -5,7 +5,7 @@ Fork (Replica) of https://github.com/WhatsAppNETClient/WhatsAppNETClient2/
 
 ## About
 
-Is a special WhatsApp Desktop Client demo app for .NET Developers. 
+This is a special WhatsApp Desktop Client demo app for .NET Developers.
 This thing is built on the [whatsapp-web.js](https://github.com/pedroslopez/whatsapp-web.js/) 
 engine to facilitate communication with the WhatsApp Web application.
 
