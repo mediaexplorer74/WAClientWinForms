@@ -37,6 +37,16 @@ You can read more tech. details at http://wa-net.coding4ever.net/
 * Node.js version 14.16.x or later
 * [Software git](https://git-scm.com/downloads) (version control)
 
+## My "Workbench" 
+
+Visual Studio 2022 Preview 4
+
+Xamarin workbench
+
+UNO Platform extesion
+
+and... NodeJS installed =)
+
 
 ## Features
 
@@ -69,3 +79,31 @@ You can read more tech. details at http://wa-net.coding4ever.net/
 Technically in the development of an application is clearly impossible to be 100% free of bugs. 
 So if you find a bug or error when using the WhatsApp NET Client, 
 please report it on the https://github.com/WhatsAppNETClient/WhatsAppNETClient2/issues page
+
+
+## Solution Layout
+Projects have a DOCs which expands on the internal functionality and layout of that project... it's good for your own R.E. 
+There are no DOCs which explains all architecture, API, OneDrive integration bus yet... this is just beginning... =)
+
+# Contribute!
+There's still a TON of things missing from this proof-of-concept (MVP) and areas of improvement 
+which I just haven't had the time to get to yet.
+- UI Improvements (for GTK, for example, or for each one of supported mutli-platforms)))
+- Additional Language Packages
+- Media Transferring Support: screenshots, etc. (for the brave)
+
+
+With best wishes,
+
+  [m][e] 2021
+
+
+## Thanks!
+I wanted to put down some thank you's here for folks/projects/websites that were invaluable for helping me get this project into a functional state:
+- [KR Software](https://github.com/WhatsAppNETClient) - "WA .NET Platform" developer
+- [WhatsAppNETClient2](https://github.com/WhatsAppNETClient/WhatsAppNETClient2/) - Original WA Client demo app
+
+
+## License & Copyright
+
+WAClientWinForms 1.0.0.0 is RnD project only. AS-IS. No support. Distributed under the MIT License.  
