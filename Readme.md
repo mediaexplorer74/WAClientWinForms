@@ -1,4 +1,4 @@
-# WhatsApp Client , WinForm edition ( for .NET Developers)
+# WhatsApp Client , WinForm edition (for .NET Developers)
 
 Fork (Replica) of https://github.com/WhatsAppNETClient/WhatsAppNETClient2/
 
