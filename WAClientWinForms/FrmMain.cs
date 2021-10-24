@@ -32,8 +32,10 @@ namespace WAClientWinForms
         {
             if (string.IsNullOrEmpty(txtLocateWhatsAppNETAPINodeJs.Text))
             {
-                MessageBox.Show("Maaf, lokasi folder 'WhatsApp NET API NodeJs'  belum di set", "Peringatan",
-                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Sorry, 'WhatsApp NET API NodeJs' folder location was not found.", 
+                    "Houston, we have a problem",
+                    MessageBoxButtons.OK, 
+                    MessageBoxIcon.Information);
 
                 txtLocateWhatsAppNETAPINodeJs.Focus();
                 return;
@@ -47,7 +49,7 @@ namespace WAClientWinForms
             //check WA Api NodeJs path...
             if (!_wa.IsWaNetApiNodeJsPathExists)
             {
-                MessageBox.Show("Sorry, 'WhatsApp NET API NodeJs' folder location was not selected.", 
+                MessageBox.Show("Sorry, 'WhatsApp NET API NodeJs' folder location was not found.", 
                     "Warning: WA API not found", 
                     MessageBoxButtons.OK, 
                     MessageBoxIcon.Information);

@@ -14,6 +14,10 @@ engine to facilitate communication with the WhatsApp Web application.
 * Project extension scheme
 
 
+## Screenshots
+![Shot 1](Images/shot1.png)
+
+
 ## Project extension scheme
  
 * Add some "integration bus" (OneDrive spec. folder, like a WhatsApp?) to WA Desktop client
