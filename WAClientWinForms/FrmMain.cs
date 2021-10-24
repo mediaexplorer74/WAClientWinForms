@@ -509,7 +509,8 @@ namespace WAClientWinForms
             var msg = "This function will DELETE all messages.\n" +
                       "Do you want to continue?";
 
-            if (MessageBox.Show(msg, "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            if (MessageBox.Show(msg, "Confirmation", 
+                MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
                 _wa.ArchiveChat();
             }
@@ -570,7 +571,8 @@ namespace WAClientWinForms
 
                 this.UseWaitCursor = false;
 
-                var msg = string.Format("{0}\n\nConnection to WA failed, please check your internet connection", message);
+                var msg = string.Format("{0}\n\nConnection to WA failed, please check your internet connection", 
+                    message);
                 MessageBox.Show(msg, "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
 
@@ -671,7 +673,7 @@ namespace WAClientWinForms
                     var index = 0;
                     foreach (var vcard in vcards)
                     {
-                        var dataVCard = string.Format("--> N: {0}, FN: {1}, WA Id: {2}, fileName: {3}",
+                        var dataVCard = string.Format("--> N: {0}, FN: {1}, WA Id: {2}, File Name: {3}",
                             vcard.n, vcard.fn, vcard.waId, vcardFilenames[index]);
 
                         MessageLog.Items.Add(dataVCard);
@@ -738,12 +740,12 @@ namespace WAClientWinForms
 
                 if (isGroup)
                 {
-                    data = string.Format("[{0}] Group: {1}, Pesan teks: {2}, Pengirim: {3}",
+                    data = string.Format("[{0}] Group: {1}, Text Message: {2}, Sender: {3}",
                         message.datetime.ToString("yyyy-MM-dd HH:mm:ss"), group, msg, pengirim);
                 }
                 else
                 {
-                    data = string.Format("[{0}] Pengirim: {1}, Isi pesan: {2}",
+                    data = string.Format("[{0}] Sender: {1}, Message content: {2}",
                         message.datetime.ToString("yyyy-MM-dd HH:mm:ss"), pengirim, msg);
                 }
 
